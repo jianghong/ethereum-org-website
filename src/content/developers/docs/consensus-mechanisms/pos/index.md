@@ -65,7 +65,7 @@ Once there's a crosslink, the validator who proposed the block gets their reward
 
 In distributed networks, a transaction has "finality" when it's part of a block that can't change.
 
-To do this in proof-of-stake, Casper, a finality protocol, gets validators to agree on the state of a block at certain checkpoints. So long as 2/3 of the validators agree, the block is finalised. Validators will lose their entire stake if they try and revert this later on via a 51% attack.
+To do this in proof-of-stake, Casper, a finality protocol, gets validators to agree on the state of a block at certain checkpoints. So long as 2/3 of the validators agree, the block is finalised. Validators will lose their entire stake if they try and revert this later or via a 51% attack.
 
 As Vlad Zamfir put it, this is like a miner participating in a 51% attack, causing their mining hardware to immediately burn down.
 
